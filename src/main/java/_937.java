@@ -14,6 +14,7 @@ class _937 {
         String digits="0123456789";
 
         for(String s:logs){
+
             split=s.split(" ",2);
 
             if(digits.contains(String.valueOf(split[1].charAt(0))))
