@@ -3,7 +3,7 @@ package main.java;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-class Solution {
+class _953 {
     HashMap<Character,Integer> hm;
     public boolean isAlienSorted(String[] words, String order) {
         hm=new LinkedHashMap<Character,Integer>();
