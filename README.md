@@ -1,8 +1,8 @@
 ## Algorithms
 
-|  #  |      Title     |   Solutions   | Video  | Difficulty  | Complexity  | Point to Remember                   
-|-----|----------------|---------------|--------|-------------|-------------
-|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Solution](../master/src/main/java/_953.java)| |Medium| O(M) |
+|  #  |      Title     |   Solutions   | Video  | Difficulty  | Complexity  | Point to Remember |                   
+|-----|----------------|---------------|--------|-------------|-------------|-------------------|
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Solution](../master/src/main/java/_953.java)| |Medium| O(M) | |
 |937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Solution](../master/src/main/java/_937.java)| |Medium| O(M * NlogN )| Comparator for String[]
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](../master/src/main/java/_17.java)| |Medium|O(M^N*N)| Generate permutations - use backtracking
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Solution](../master/src/main/java/_763.java)| |Medium|O(N)| Greedy
