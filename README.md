@@ -23,12 +23,15 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](../master/src/main/java/_27.java)| | | Two pointers
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](../master/src/main/java/_26.java)| | | Two pointers
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Solution](../master/src/main/java/_1346.java)| | | Set
-|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Solution](../master/src/main/java/_941.java)| | | Strictly Increasing tehn Strictly Decreasing
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Solution](../master/src/main/java/_941.java)| | | Strictly Increasing then Strictly Decreasing
 |283|[Move Zeros](https://leetcode.com/problems/move-zeroes/)|[Solution](../master/src/main/java/_283.java)| | | Two pointers
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Solution](../master/src/main/java/_905.java)| | | Two pointers
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Solution](../master/src/main/java/_905.java)| | | Two pointers
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Solution](../master/src/main/java/_1299.java)| | | Greatest on Right- Traverse from last ?
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Solution](../master/src/main/java/_487.java)| | | Sliding Window
+|977|[Squares of a sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](../master/src/main/java/_977.java)| | | Two pointers
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](../master/src/main/java/_448.java)| | | Consider values as indices
+|215|[Kth element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](../master/src/main/java/_215.java)| | | Heap
 
 
 
