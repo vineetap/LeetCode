@@ -71,7 +71,7 @@
 |20|[Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)|[Solution](../master/src/main/java/_20.java)|| O(n) | 
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Solution](../master/src/main/java/_1249.java)|| O(n) | 
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](../master/src/main/java/_232.java)|| O(n) | 
-|225|[mplement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](../master/src/main/java/_225.java)|| O(n) | 
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](../master/src/main/java/_225.java)|| O(n) | 
 
 ## Dynamic Programming
 
@@ -87,5 +87,5 @@
 |-----|----------------|---------------|-----------|-------------|----------------
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](../master/src/main/java/_231.java)|| O(1) | n& n-1==0
 |326|[Power of Three](https://leetcode.com/problems/power-of-three)|[Solution](../master/src/main/java/_326.java)|| O(logn) | 
-|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Solution](../master/src/main/java/_231.java)|| O(1) | n& n-1==0
+|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Solution](../master/src/main/java/_231.java)|| O(1) | Number of 5's infactprial n
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](../master/src/main/java/_13.java)|| O(n) | 
