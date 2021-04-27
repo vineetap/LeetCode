@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class _3 {
     public int lengthOfLongestSubstring(String s) {
         int result=0;
-        HashMap<Character,Integer> hm=new HashMap<Character,Integer>();
 
+        HashMap<Character,Integer> hm=new HashMap<Character,Integer>();
         for(int j=0,i=0;j<s.length();j++){    // i is the start index of sub-string considered
 
             if(hm.containsKey(s.charAt(j))){

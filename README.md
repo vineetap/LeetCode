@@ -11,6 +11,8 @@
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Solution](../master/src/main/java/_49.java)| |O(NK)| Key from Count Array
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Solution](../master/src/main/java/_208.java)| |O(M)| Trie
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[Solution](../master/src/main/java/_211.java)| |O(M)| Trie
+|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Solution](../master/src/main/java/_380.java)| || 
+|381|[Insert Delete GetRandom O(1)- Duplicates Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Solution](../master/src/main/java/_381.java)| || 
 
 
 ## Arrays
@@ -30,11 +32,14 @@
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Solution](../master/src/main/java/_487.java)| | | Sliding Window
 |977|[Squares of a sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](../master/src/main/java/_977.java)| | | Two pointers
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](../master/src/main/java/_448.java)| | | Consider values as indices
-|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](../master/src/main/java/_48.java)| | | 
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](../master/src/main/java/_48.java)| CTCI| | 
 |73|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)|[Solution](../master/src/main/java/_73.java)| | |
 |215|[Kth element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](../master/src/main/java/_215.java)| | | 
 |11|[Container with most water](https://leetcode.com/problems/container-with-most-water/)|[Solution](../master/src/main/java/_11.java)| | | Two pointer
 |42|[Trapping water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](../master/src/main/java/_42.java)| [Two Pointer-First comment](https://leetcode.com/problems/trapping-rain-water/discuss/17391/Share-my-short-solution)| | Stack/Two pointer
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](../master/src/main/java/_238.java)| | | Left Product and Right Product
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](../master/src/main/java/_34.java)| | | Binary Search
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Solution](../master/src/main/java/_56.java)| | | Sort
 
 ## Strings
 
@@ -50,9 +55,37 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](../master/src/main/java/_680.java)|| O(n) | 
 
+## Linked List
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](../master/src/main/java/_206.java)|| O(n) | 
+|96|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Solution](../master/src/main/java/_96.java)|| O(n) | 
+|430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/reverse-linked-list-ii/)|[Solution](../master/src/main/java/_430.java)|||BFS/DFS 
+|141|[Linked List Cycle](https://leetcode.com/problems/reverse-linked-list-ii/)|[Solution](../master/src/main/java/_141.java)|| worst case time complexity is O(N+K)|Tortoise and Hare
+
+## Stack
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|20|[Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)|[Solution](../master/src/main/java/_20.java)|| O(n) | 
+|1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Solution](../master/src/main/java/_1249.java)|| O(n) | 
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](../master/src/main/java/_232.java)|| O(n) | 
+|225|[mplement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](../master/src/main/java/_225.java)|| O(n) | 
+
 ## Dynamic Programming
 
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
 |-----|----------------|---------------|-----------|-------------|----------------
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](../master/src/main/java/_121.java)|| O(n) | 
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](../master/src/main/java/_53.java)|| O(n) | 
+
+
+## Mathematical
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](../master/src/main/java/_231.java)|| O(1) | n& n-1==0
+|326|[Power of Three](https://leetcode.com/problems/power-of-three)|[Solution](../master/src/main/java/_326.java)|| O(logn) | 
+|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Solution](../master/src/main/java/_231.java)|| O(1) | n& n-1==0
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](../master/src/main/java/_13.java)|| O(n) | 
