@@ -41,9 +41,10 @@
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](../master/src/main/java/_238.java)| | | Left Product and Right Product
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](../master/src/main/java/_34.java)| | | Binary Search
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Solution](../master/src/main/java/_56.java)| | | Sort
-|169|[Majority Elements](https://leetcode.com/problems/majority-element/)|[Solution](../master/src/main/java/_169java)|[URL](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html) | O(n) | Boyers and Moore Voting
-|229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
-|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_229java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
+|169|[Majority Elements](https://leetcode.com/problems/majority-element/)|[Solution](../master/src/main/java/_169.java)|[URL](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html) | O(n) | Boyers and Moore Voting
+|229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229.java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
+|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_849.java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)|| O(n) | Sliding Window
 
 ## Strings
 
@@ -59,6 +60,9 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](../master/src/main/java/_680.java)|| O(n) | 
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Solution](../master/src/main/java/_205.java)|[HasMap](https://www.educative.io/edpresso/how-to-check-if-two-strings-are-isomorphic) [Count Array](https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution)| O(n) | 
+|NA-NonLC|[Removing string that is an anagram of an earlier string](https://www.geeksforgeeks.org/removing-string-that-is-an-anagram-of-an-earlier-string/)|[Solution](../master/src/main/java/_NonLC2.java)||| 
+|NA-NonLC|[Number of Substrings with the count of each Character as K](https://www.thecodingshala.com/2020/12/find-number-of-substrings-with-count-of-each-character-as-k.html)|[Solution](../master/src/main/java/_NonLC1.java)||| 
+|816|[Ambiguos Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
 
 ## Linked List
 
@@ -88,6 +92,7 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](../master/src/main/java/_53.java)|| O(n) | 
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](../master/src/main/java/_45.java)|[URL](https://www.youtube.com/watch?v=cfdwhSmLt3w&ab_channel=CodeforCause)| O(n) | Greedy-DP
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Solution](../master/src/main/java/_1143.java)|[Tushar](https://www.youtube.com/watch?v=NnD96abizww) [Abdul](https://www.youtube.com/watch?v=sSno9rV8Rhg)| Time - O(n*m)  Space - O(min(m,n))| DP
+|5|[Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/solution/)|[Solution](../master/src/main/java/_5.java)|[ExpandFromCentre](https://www.youtube.com/watch?v=DK5OKKbF6GI) [DP](https://www.youtube.com/watch?v=UflHuQj6MVA) [DP Code](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)|| Expand From Centre, DP, Manacher's - REMAINING 
 
 
 ## Mathematical
@@ -99,3 +104,4 @@
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Solution](../master/src/main/java/_231.java)|| O(1) | Number of 5's infactprial n
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](../master/src/main/java/_13.java)|| O(n) | 
 |906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|[Solution](../master/src/main/java/_906.java)|| O(n) | 
+|204|[Prime Numbers](https://leetcode.com/problems/count-primes/)|[Solution](../master/src/main/java/_204.java)|[URL](https://leetcode.com/problems/count-primes/discuss/57588/My-simple-Java-solution)| Time- O(log(log(n)) Space - O(n) | Sieve of Eratosthenes
