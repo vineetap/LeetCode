@@ -45,6 +45,11 @@
 |229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229.java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_849.java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)|| O(n) | Sliding Window
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](../master/src/main/java/_303.java)|| O(n) | 
+|304|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Solution](../master/src/main/java/_304.java)|| O(n) | 
+|605|[Can Place FLowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](../master/src/main/java/_605.java)|| O(n) | 
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Solution](../master/src/main/java/_852.java)|| O(logn) | 
+ 
 
 ## Strings
 
@@ -62,7 +67,9 @@
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Solution](../master/src/main/java/_205.java)|[HasMap](https://www.educative.io/edpresso/how-to-check-if-two-strings-are-isomorphic) [Count Array](https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution)| O(n) | 
 |NA-NonLC|[Removing string that is an anagram of an earlier string](https://www.geeksforgeeks.org/removing-string-that-is-an-anagram-of-an-earlier-string/)|[Solution](../master/src/main/java/_NonLC2.java)||| 
 |NA-NonLC|[Number of Substrings with the count of each Character as K](https://www.thecodingshala.com/2020/12/find-number-of-substrings-with-count-of-each-character-as-k.html)|[Solution](../master/src/main/java/_NonLC1.java)||| 
-|816|[Ambiguos Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
+|816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Solution](../master/src/main/java/_1160.java)|| | 
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](../master/src/main/java/_583.java)|| | 
 
 ## Linked List
 
@@ -93,6 +100,7 @@
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](../master/src/main/java/_45.java)|[URL](https://www.youtube.com/watch?v=cfdwhSmLt3w&ab_channel=CodeforCause)| O(n) | Greedy-DP
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Solution](../master/src/main/java/_1143.java)|[Tushar](https://www.youtube.com/watch?v=NnD96abizww) [Abdul](https://www.youtube.com/watch?v=sSno9rV8Rhg)| Time - O(n*m)  Space - O(min(m,n))| DP
 |5|[Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/solution/)|[Solution](../master/src/main/java/_5.java)|[ExpandFromCentre](https://www.youtube.com/watch?v=DK5OKKbF6GI) [DP](https://www.youtube.com/watch?v=UflHuQj6MVA) [DP Code](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)|| Expand From Centre, DP, Manacher's - REMAINING 
+|198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](../master/src/main/java/_198.java)|[Kevin](https://www.youtube.com/watch?v=xlvhyfcoQa4&ab_channel=KevinNaughtonJr.)||DP 
 
 
 ## Mathematical
