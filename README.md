@@ -44,11 +44,15 @@
 |169|[Majority Elements](https://leetcode.com/problems/majority-element/)|[Solution](../master/src/main/java/_169.java)|[URL](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html) | O(n) | Boyers and Moore Voting
 |229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229.java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_849.java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
-|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)|| O(n) | Sliding Window
-|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](../master/src/main/java/_303.java)|| O(n) | 
-|304|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Solution](../master/src/main/java/_304.java)|| O(n) | 
-|605|[Can Place FLowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](../master/src/main/java/_605.java)|| O(n) | 
-|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Solution](../master/src/main/java/_852.java)|| O(logn) | 
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)| | O(n) | Sliding Window
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](../master/src/main/java/_303.java)| | O(n) | 
+|304|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Solution](../master/src/main/java/_304.java)| | O(n) | 
+|605|[Can Place FLowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](../master/src/main/java/_605.java)| | O(n) | 
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Solution](../master/src/main/java/_852.java)| | O(logn) | 
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](../master/src/main/java/_349.java)| | O(n+m)|Set.retainAll() for intersection , Two Pointer for O(n) - Only if given arrays are sorted
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](../master/src/main/java/_350.java)|[External Sort](https://www.youtube.com/watch?v=Bp7fGofslng&ab_channel=GATEAppliedCourse) [Large Data Solution](https://leetcode.com/problems/intersection-of-two-arrays-ii/discuss/82243/Solution-to-3rd-follow-up-question) | O(n+m)|HashMap to store keys & count of smaller array , Two Pointer for O(n) - Only if given arrays are sorted, If data is more and cannot be loaded in memory at once -External sort
  
 
 ## Strings
@@ -90,6 +94,14 @@
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](../master/src/main/java/_232.java)|| O(n) | 
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](../master/src/main/java/_225.java)|| O(n) | 
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](../master/src/main/java/_155.java)|| Space O(n) | 2 -Stack with Pair
+
+## Graphs & 2D Grid
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Solution](../master/src/main/java/_1091.java)|Shortest Path -BFS| | 
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Solution](../master/src/main/java/_207.java)|[Kahns BFS + Queue](https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/Kahns.java)| O(V+E) | 
+|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Solution](../master/src/main/java/_210.java)|[DFS + Stack](https://leetcode.com/problems/course-schedule-ii/discuss/59317/Two-AC-solution-in-Java-using-BFS-and-DFS-with-explanation)| O(V+E) | 
 
 ## Dynamic Programming
 
