@@ -53,6 +53,7 @@
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](../master/src/main/java/_349.java)| | O(n+m)|Set.retainAll() for intersection , Two Pointer for O(n) - Only if given arrays are sorted
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](../master/src/main/java/_350.java)|[External Sort](https://www.youtube.com/watch?v=Bp7fGofslng&ab_channel=GATEAppliedCourse) [Large Data Solution](https://leetcode.com/problems/intersection-of-two-arrays-ii/discuss/82243/Solution-to-3rd-follow-up-question) | O(n+m)|HashMap to store keys & count of smaller array , Two Pointer for O(n) - Only if given arrays are sorted, If data is more and cannot be loaded in memory at once -External sort
+|NonLC3|[Find numbers present in at least two of the three arrays](https://www.careercup.com/question?id=5106869203369984)|[Solution](https://www.careercup.com/question?id=5106869203369984)| | 
  
 
 ## Strings
@@ -99,9 +100,14 @@
 
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
 |-----|----------------|---------------|-----------|-------------|----------------
-|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Solution](../master/src/main/java/_1091.java)|Shortest Path -BFS| | 
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Solution](../master/src/main/java/_207.java)|[Kahns BFS + Queue](https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/Kahns.java)| O(V+E) | 
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Solution](../master/src/main/java/_210.java)|[DFS + Stack](https://leetcode.com/problems/course-schedule-ii/discuss/59317/Two-AC-solution-in-Java-using-BFS-and-DFS-with-explanation)| O(V+E) | 
+|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Solution](../master/src/main/java/_463.java)|[DFS](https://leetcode.com/problems/island-perimeter/discuss/95004/Java-solution-with-DFS) | O(N) | Counting - LC premium
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Solution](../master/src/main/java/_733.java)|  | O(N) | Call dfs only if newColour and sourceColur are different otherwise stackoverflow
+|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](../master/src/main/java/_1034.java)| [Reference](https://leetcode.com/problems/coloring-a-border/discuss/284935/Java-DFS-Easy-to-understand!) | O(N) | DFS
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](../master/src/main/java/_200.java)| [Reference](https://leetcode.com/problems/coloring-a-border/discuss/284935/Java-DFS-Easy-to-understand!) | O(N) | DFS
+|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Solution](../master/src/main/java/_1091.java)|Shortest Path -BFS| | 
+|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[Solution](../master/src/main/java/_542.java)| [BFS](https://leetcode.com/problems/01-matrix/discuss/248525/Java-BFS-solution-with-comments)| | 
 
 ## Dynamic Programming
 
