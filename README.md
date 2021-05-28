@@ -19,7 +19,7 @@
 
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
 |-----|----------------|---------------|-----------|-------------|----------------
-|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](../master/src/main/java/_189.java)|[URL](https://betterprogramming.pub/3-ways-to-rotate-an-array-2a45b39f7bec)| | Reverse last K & first (n-K) & Reverse All
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](../master/src/main/java/_189.java)|[URL](https://betterprogramming.pub/3-ways-to-rotate-an-array-2a45b39f7bec)| |  Reverse All & then Reverse first K & last (n-K) AND Handle for cases where k > nums.length
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](../master/src/main/java/_136.java)| | | a⊕b⊕a=(a⊕a)⊕b=0⊕b=b and 2∗(a+b+c)−(a+a+b+b+c)=c
 |88|[Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/)|[Solution](../master/src/main/java/_88.java)| | | Two pointers
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](../master/src/main/java/_27.java)| | | Two pointers

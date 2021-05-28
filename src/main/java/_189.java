@@ -1,8 +1,34 @@
 package main.java;
 
 public class _189 {
-    //Input: nums = [1,2,3,4,5,6,7], k = 3
-    //Output: [5,6,7,1,2,3,4]
+    //Reverse
+    public void rotate1(int[] nums, int k) {
+
+        if(nums.length==1)
+            return;
+
+        int last=nums.length-1;
+        k=k%nums.length; // to handle case when k is greater than nums.length
+
+        reverse(nums,0,last);
+        reverse(nums,0,k-1);
+        reverse(nums,k,last);
+
+    }
+
+    private void reverse(int[] nums,int start,int end){
+        int temp;
+
+        while(start<end){
+            temp=nums[end];
+            nums[end]=nums[start];
+            nums[start]=temp;
+
+            start++;
+            end--;
+        }
+
+    }
 
     public void rotate(int[] nums, int k) {
 
