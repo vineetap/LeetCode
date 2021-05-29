@@ -42,8 +42,6 @@
 |229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229.java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_849.java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)| | O(n) | Sliding Window
-|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](../master/src/main/java/_303.java)| | O(n) | 
-|304|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Solution](../master/src/main/java/_304.java)| | O(n) | 
 |605|[Can Place FLowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](../master/src/main/java/_605.java)| | O(n) | 
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Solution](../master/src/main/java/_852.java)| | O(logn) | 
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow
@@ -59,6 +57,17 @@
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](../master/src/main/java/_703.java)| | | 
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Solution](../master/src/main/java/_451.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
 |1636|[Sort Array By Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Solution](../master/src/main/java/_1636.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
+
+## Arrays - Prefix Sum
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](../master/src/main/java/_303.java)| | O(n) | 
+|304|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Solution](../master/src/main/java/_304.java)| | O(n) | 
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Solution](../master/src/main/java/_523.java)| [Check Comments](https://leetcode.com/problems/continuous-subarray-sum/discuss/99499/Java-O(n)-time-O(k)-space)| | PrefixSum O(n)
+|974|[Subarray Sum Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Solution](../master/src/main/java/_974.java)| [Modulus for negative](https://www.youtube.com/watch?v=2rbeCUMBYgk&ab_channel=LearnMathTutorials) [Videos](https://www.youtube.com/watch?v=u9m-hnlcydk&ab_channel=KnowledgeCenter) [Ref](https://www.geeksforgeeks.org/count-sub-arrays-sum-divisible-k/)| | PrefixSum O(n)
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Solution](../master/src/main/java/_560.java)| [Ref](https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-%2B-HashMap) | | PrefixSum O(n) + HashMap
+|930|[Binary Subarrays with Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[Solution](../master/src/main/java/_930.java)| [Good Ref](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186647/Java-Clean-Solution-2-Sum-%2B-Prefix-Sum-Caching) | | PrefixSum O(n) + HashMap
 
 ## Strings
 
