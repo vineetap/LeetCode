@@ -80,14 +80,17 @@
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](../master/src/main/java/_844.java)|| O(n) | Stack & Two ptr
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Solution](../master/src/main/java/_925.java)|[URL](https://leetcode.com/problems/long-pressed-name/discuss/183965/Short-Java-Solution)| O(n) | 
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](../master/src/main/java/_3.java)|| O(n) | 
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
-|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](../master/src/main/java/_680.java)|| O(n) | 
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Solution](../master/src/main/java/_205.java)|[HasMap](https://www.educative.io/edpresso/how-to-check-if-two-strings-are-isomorphic) [Count Array](https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution)| O(n) | 
-|NA-NonLC|[Removing string that is an anagram of an earlier string](https://www.geeksforgeeks.org/removing-string-that-is-an-anagram-of-an-earlier-string/)|[Solution](../master/src/main/java/_NonLC2.java)||| 
 |NA-NonLC|[Number of Substrings with the count of each Character as K](https://www.thecodingshala.com/2020/12/find-number-of-substrings-with-count-of-each-character-as-k.html)|[Solution](../master/src/main/java/_NonLC1.java)||| 
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Solution](../master/src/main/java/_1160.java)|| | 
-|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](../master/src/main/java/_583.java)|| | 
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](../master/src/main/java/_242.java)||| 
+|438|[Find all the Anagrams in string](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Solution](../master/src/main/java/_438.java)||| Sliding Window
+|NA-NonLC|[Removing string that is an anagram of an earlier string](https://www.geeksforgeeks.org/removing-string-that-is-an-anagram-of-an-earlier-string/)|[Solution](../master/src/main/java/_NonLC2.java)||| 
+|1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Solution](../master/src/main/java/_1347.java)||| Count Array
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](../master/src/main/java/_680.java)|| O(n) | 
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Solution](../master/src/main/java/_9.java)|| O(n) | 
 
 ## Linked List
 
@@ -131,6 +134,7 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](../master/src/main/java/_53.java)|| O(n) | 
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](../master/src/main/java/_45.java)|[URL](https://www.youtube.com/watch?v=cfdwhSmLt3w&ab_channel=CodeforCause)| O(n) | Greedy-DP
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Solution](../master/src/main/java/_1143.java)|[Tushar](https://www.youtube.com/watch?v=NnD96abizww) [Abdul](https://www.youtube.com/watch?v=sSno9rV8Rhg)| Time - O(n*m)  Space - O(min(m,n))| DP
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](../master/src/main/java/_583.java)|| | 
 |5|[Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/solution/)|[Solution](../master/src/main/java/_5.java)|[ExpandFromCentre](https://www.youtube.com/watch?v=DK5OKKbF6GI) [DP](https://www.youtube.com/watch?v=UflHuQj6MVA) [DP Code](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)|| Expand From Centre, DP, Manacher's - REMAINING 
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](../master/src/main/java/_198.java)|[Kevin](https://www.youtube.com/watch?v=xlvhyfcoQa4&ab_channel=KevinNaughtonJr.)||DP 
 
