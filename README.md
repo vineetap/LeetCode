@@ -24,6 +24,8 @@
 |88|[Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/)|[Solution](../master/src/main/java/_88.java)| | | Two pointers
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](../master/src/main/java/_27.java)| | | Two pointers
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](../master/src/main/java/_26.java)| | | Two pointers
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](../master/src/main/java/_80.java)| | | Two pointers
+|NonLC4|[Remove Duplicates UnSorted Array](https://www.careercup.com/question?id=15500701)|[Solution](../master/src/main/java/_NonLC4.java)| | | LinkedHashSet Or HashMap
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Solution](../master/src/main/java/_1346.java)| | | Set
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Solution](../master/src/main/java/_941.java)| | | Strictly Increasing then Strictly Decreasing
 |283|[Move Zeros](https://leetcode.com/problems/move-zeroes/)|[Solution](../master/src/main/java/_283.java)| | | Two pointers
@@ -32,6 +34,7 @@
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Solution](../master/src/main/java/_487.java)| | | Sliding Window
 |977|[Squares of a sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](../master/src/main/java/_977.java)| | | Two pointers
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](../master/src/main/java/_448.java)| | | Consider values as indices
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Solution](../master/src/main/java/_442.java)| | | Consider values as indices
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](../master/src/main/java/_48.java)| CTCI| | 
 |73|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)|[Solution](../master/src/main/java/_73.java)| | |
 |11|[Container with most water](https://leetcode.com/problems/container-with-most-water/)|[Solution](../master/src/main/java/_11.java)| | | Two pointer
@@ -80,6 +83,7 @@
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](../master/src/main/java/_844.java)|| O(n) | Stack & Two ptr
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Solution](../master/src/main/java/_925.java)|[URL](https://leetcode.com/problems/long-pressed-name/discuss/183965/Short-Java-Solution)| O(n) | 
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](../master/src/main/java/_3.java)|| O(n) | 
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Solution](../master/src/main/java/_340.java)|| O(n) | 
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Solution](../master/src/main/java/_205.java)|[HasMap](https://www.educative.io/edpresso/how-to-check-if-two-strings-are-isomorphic) [Count Array](https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution)| O(n) | 
 |NA-NonLC|[Number of Substrings with the count of each Character as K](https://www.thecodingshala.com/2020/12/find-number-of-substrings-with-count-of-each-character-as-k.html)|[Solution](../master/src/main/java/_NonLC1.java)||| 
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
@@ -91,6 +95,9 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](../master/src/main/java/_680.java)|| O(n) | 
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Solution](../master/src/main/java/_9.java)|| O(n) | 
+|NonLC5|[Write itoa ](https://www.careercup.com/question?id=5670642256969728)|[Solution](../master/src/main/java/_NonLC5.java)| | | 
+|NonLC6|[Smart Substring](https://www.careercup.com/question?id=5156072660664320)|[Solution](../master/src/main/java/_NonLC6.java)| | | 
+|NonLC7|[Remove Repetitive](https://www.careercup.com/question?id=5654760935915520)|[Solution](../master/src/main/java/_NonLC7.java)| | | 
 
 ## Linked List
 
