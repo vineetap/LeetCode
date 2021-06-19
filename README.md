@@ -47,19 +47,22 @@
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/_1423.java)| | O(n) | Sliding Window
 |605|[Can Place FLowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](../master/src/main/java/_605.java)| | O(n) | 
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Solution](../master/src/main/java/_852.java)| | O(logn) | 
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow
-|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](../master/src/main/java/_349.java)| | O(n+m)|Set.retainAll() for intersection , Two Pointer for O(n) - Only if given arrays are sorted
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](../master/src/main/java/_350.java)|[External Sort](https://www.youtube.com/watch?v=Bp7fGofslng&ab_channel=GATEAppliedCourse) [Large Data Solution](https://leetcode.com/problems/intersection-of-two-arrays-ii/discuss/82243/Solution-to-3rd-follow-up-question) | O(n+m)|HashMap to store keys & count of smaller array , Two Pointer for O(n) - Only if given arrays are sorted, If data is more and cannot be loaded in memory at once -External sort
 |NonLC3|[Find numbers present in at least two of the three arrays](https://www.careercup.com/question?id=5106869203369984)|[Solution](https://www.careercup.com/question?id=5106869203369984)| | 
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Solution](../master/src/main/java/_56.java)| | | Sort
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Solution](../master/src/main/java/_253.java)| | | Sort & Heap
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[Solution](../master/src/main/java/_1094.java)| | | Sort & Heap Or Bucket Sort
-|347|[Top k frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](../master/src/main/java/_347.java)| HashMap - O(nLogn) | Sort haspMap by Value - comparingByValue OR Heap
+|347|[Top k frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](../master/src/main/java/_347.java)| [Bucket Sort](https://leetcode.com/problems/top-k-frequent-elements/discuss/81602/Java-O(n)-Solution-Bucket-Sort) | Sort haspMap by Value - comparingByValue OR Heap OR Bucket Sort
 |215|[Kth element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](../master/src/main/java/_215.java)| | | 
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](../master/src/main/java/_703.java)| | | 
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Solution](../master/src/main/java/_451.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
 |1636|[Sort Array By Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Solution](../master/src/main/java/_1636.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_153.java)|[Video](https://www.youtube.com/watch?v=OXkLNPalfRs&ab_channel=KnowledgeCenter) [Ref](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/discuss/48484/A-concise-solution-with-proof-in-the-comment)| Avg-O(logn) Worst Case - O(n)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_154.java)|[Video](https://www.youtube.com/watch?v=K0PjrikGKK4&ab_channel=KnowledgeCenterKnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
+
 
 ## Arrays - Prefix Sum
 
@@ -89,7 +92,7 @@
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[Solution](../master/src/main/java/_816.java)|[Video](https://www.youtube.com/watch?v=rt-lJS5nlOQ)| O(n^3) | 
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Solution](../master/src/main/java/_1160.java)|| | 
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](../master/src/main/java/_242.java)||| 
-|438|[Find all the Anagrams in string](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Solution](../master/src/main/java/_438.java)||| Sliding Window
+|438|[Find all the Anagrams in string](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Solution](../master/src/main/java/_438.java)||| Fixed size Sliding Window - every time decrease left ptr and increase right ptr
 |NA-NonLC|[Removing string that is an anagram of an earlier string](https://www.geeksforgeeks.org/removing-string-that-is-an-anagram-of-an-earlier-string/)|[Solution](../master/src/main/java/_NonLC2.java)||| 
 |1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Solution](../master/src/main/java/_1347.java)||| Count Array
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](../master/src/main/java/_125.java)|| O(n) | 
@@ -98,6 +101,12 @@
 |NonLC5|[Write itoa ](https://www.careercup.com/question?id=5670642256969728)|[Solution](../master/src/main/java/_NonLC5.java)| | | 
 |NonLC6|[Smart Substring](https://www.careercup.com/question?id=5156072660664320)|[Solution](../master/src/main/java/_NonLC6.java)| | | 
 |NonLC7|[Remove Repetitive](https://www.careercup.com/question?id=5654760935915520)|[Solution](../master/src/main/java/_NonLC7.java)| | | 
+
+## Recursion & Backtracking
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/submissions/)|[Solution](../master/src/main/java/_22.java)|| O(n) | 
 
 ## Linked List
 

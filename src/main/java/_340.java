@@ -2,7 +2,9 @@ package main.java;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /*Given a string s and an integer k, return the length of the longest substring of s that contains at most k distinct characters.
 * */
