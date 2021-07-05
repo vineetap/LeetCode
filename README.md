@@ -35,8 +35,6 @@
 |977|[Squares of a sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](../master/src/main/java/_977.java)| | | Two pointers
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](../master/src/main/java/_448.java)| | | Consider values as indices
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Solution](../master/src/main/java/_442.java)| | | Consider values as indices
-|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](../master/src/main/java/_48.java)| CTCI| | 
-|73|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)|[Solution](../master/src/main/java/_73.java)| | |
 |11|[Container with most water](https://leetcode.com/problems/container-with-most-water/)|[Solution](../master/src/main/java/_11.java)| | | Two pointer
 |42|[Trapping water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](../master/src/main/java/_42.java)| [Two Pointer-First comment](https://leetcode.com/problems/trapping-rain-water/discuss/17391/Share-my-short-solution)| | Stack/Two pointer
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](../master/src/main/java/_238.java)| | | Left Product and Right Product
@@ -62,6 +60,7 @@
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_153.java)|[Video](https://www.youtube.com/watch?v=OXkLNPalfRs&ab_channel=KnowledgeCenter) [Ref](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/discuss/48484/A-concise-solution-with-proof-in-the-comment)| Avg-O(logn) Worst Case - O(n)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_154.java)|[Video](https://www.youtube.com/watch?v=K0PjrikGKK4&ab_channel=KnowledgeCenterKnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
+|1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Solution](../master/src/main/java/_1909.java)|[Ref](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/discuss/1299306/Two-Conditions)| |
 
 
 ## Arrays - Prefix Sum
@@ -74,6 +73,9 @@
 |974|[Subarray Sum Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Solution](../master/src/main/java/_974.java)| [Modulus for negative](https://www.youtube.com/watch?v=2rbeCUMBYgk&ab_channel=LearnMathTutorials) [Videos](https://www.youtube.com/watch?v=u9m-hnlcydk&ab_channel=KnowledgeCenter) [Ref](https://www.geeksforgeeks.org/count-sub-arrays-sum-divisible-k/)| | PrefixSum O(n)
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Solution](../master/src/main/java/_560.java)| [Ref](https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-%2B-HashMap) | | PrefixSum O(n) + HashMap
 |930|[Binary Subarrays with Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[Solution](../master/src/main/java/_930.java)| [Good Ref](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186647/Java-Clean-Solution-2-Sum-%2B-Prefix-Sum-Caching) | | PrefixSum O(n) + HashMap
+|1906|[Minimum Absolute Difference Queries](https://leetcode.com/problems/minimum-absolute-difference-queries/)|[Solution](../master/src/main/java/_1906.java)| [Good Ref](https://leetcode.com/problems/minimum-absolute-difference-queries/discuss/1284212/Python-Short-cumulative-sums-solution-explained) | | 
+|1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Solution](../master/src/main/java/_1371.java)| [Good Ref](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/discuss/534135/C%2B%2BJava-with-picture) | | 
+|1915|[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|[Solution](../master/src/main/java/_1915.java)| [Good Ref](https://leetcode.com/problems/number-of-wonderful-substrings/discuss/1299523/C%2B%2B-Bit-Vector-%2B-Prefix-Parities-(Similar-to-Prefix-Sums)) | | 
 
 ## Strings
 
@@ -106,7 +108,11 @@
 
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
 |-----|----------------|---------------|-----------|-------------|----------------
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/submissions/)|[Solution](../master/src/main/java/_22.java)|| O(n) | 
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/submissions/)|[Solution](../master/src/main/java/_22.java)|| [Catalan Number](https://en.wikipedia.org/wiki/Catalan_number) | 
+|46|[Permutaions](https://leetcode.com/problems/permutations/)|[Solution](../master/src/main/java/_46.java)| [Ref](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))| Time - O(n!) - Check recursion tree Space - O(n!)| contains check be replaced by swap as mentioned in leetcode premium sol
+|77|[Combinations](https://leetcode.com/problems/combinations/)|[Solution](../master/src/main/java/_77.java)| [Ref](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))| Time - O(n!) - Check recursion tree Space - O(n!)| 
+|39|[Combinations-Sum](https://leetcode.com/problems/combination-sum/)|[Solution](../master/src/main/java/_39.java)| [Ref](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))| Time - O(n!) - Check recursion tree Space - O(n!)| 
+
 
 ## Linked List
 
@@ -141,6 +147,17 @@
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Solution](../master/src/main/java/_1091.java)|Shortest Path -BFS| | 
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[Solution](../master/src/main/java/_542.java)| [BFS](https://leetcode.com/problems/01-matrix/discuss/248525/Java-BFS-solution-with-comments)| | 
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Solution](../master/src/main/java/_994.java)|  | | 
+|1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[Solution](../master/src/main/java/_1905.java)| [Ref](https://leetcode.com/problems/number-of-islands/discuss/1284203/C%2B%2BPython-DFS-Solution) | | 
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[Solution](../master/src/main/java/_79.java)| [Ref](https://leetcode.com/problems/word-search/discuss/27658/Accepted-very-short-Java-solution.-No-additional-space.) | Time - O(N*3^L) Space - O(L)| DFS - XOR also can be done to mark visrted
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Solution](../master/src/main/java/_127.java)| [Ref](https://leetcode.com/problems/word-ladder/discuss/40704/Java-Solution-using-BFS-with-explanation) | Time - O(N*3^L) Space - O(L)| BFS
+
+## 2D Matrix
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](../master/src/main/java/_48.java)| CTCI| | 
+|73|[Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)|[Solution](../master/src/main/java/_73.java)| | |
+|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Solution](../master/src/main/java/_54.java)| | | 
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Solution](../master/src/main/java/_59.java)| | | 
 
 ## Dynamic Programming
 
