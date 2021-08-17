@@ -133,6 +133,17 @@
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](../master/src/main/java/_232.java)|| O(n) | 
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](../master/src/main/java/_225.java)|| O(n) | 
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](../master/src/main/java/_155.java)|| Space O(n) | 2 -Stack with Pair
+|856|[Score of Parenthesis](https://leetcode.com/problems/score-of-parentheses/)|[Solution](../master/src/main/java/_856.java)|[Ref](https://leetcode.com/problems/score-of-parentheses/discuss/141777/C%2B%2BJavaPython-O(1)-Space)| Space O(n) | 
+
+## Monotonic Stack
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Solution](../master/src/main/java/_84.java)| [Ref](https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/29018/AC-clean-Java-solution-using-stack) [GFG](https://www.geeksforgeeks.org/largest-rectangle-under-histogram/)| O(n) | 
+|901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Solution](../master/src/main/java/_90.java)| | O(n) | 
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Solution](../master/src/main/java/_739.java)| | O(n) | 
+|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Solution](../master/src/main/java/_503.java)| | O(n) | 
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Solution](../master/src/main/java/_496.java)| | O(n) | 
 
 ## Graphs & 2D Grid
 
@@ -150,6 +161,20 @@
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[Solution](../master/src/main/java/_1905.java)| [Ref](https://leetcode.com/problems/number-of-islands/discuss/1284203/C%2B%2BPython-DFS-Solution) | | 
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[Solution](../master/src/main/java/_79.java)| [Ref](https://leetcode.com/problems/word-search/discuss/27658/Accepted-very-short-Java-solution.-No-additional-space.) | Time - O(N*3^L) Space - O(L)| DFS - XOR also can be done to mark visrted
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Solution](../master/src/main/java/_127.java)| [Ref](https://leetcode.com/problems/word-ladder/discuss/40704/Java-Solution-using-BFS-with-explanation) | Time - O(N*3^L) Space - O(L)| BFS
+
+## Graphs - Union Find,Dj
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[Solution](../master/src/main/java/_743.java)|Union Find|  | 
+|547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Solution](../master/src/main/java/_547.java)|Union Find|  | 
+
+## Trees
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|226|[Invert a Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](../master/src/main/java/_226.java)|| DFS & BFS solution  | 
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Solution](../master/src/main/java/_572.java)|| [Ref Solution](https://leetcode.com/problems/subtree-of-another-tree/discuss/102724/Java-Solution-tree-traversal)  | 
 
 ## 2D Matrix
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
@@ -170,7 +195,9 @@
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](../master/src/main/java/_583.java)|| | 
 |5|[Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/solution/)|[Solution](../master/src/main/java/_5.java)|[ExpandFromCentre](https://www.youtube.com/watch?v=DK5OKKbF6GI) [DP](https://www.youtube.com/watch?v=UflHuQj6MVA) [DP Code](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)|| Expand From Centre, DP, Manacher's - REMAINING 
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](../master/src/main/java/_198.java)|[Kevin](https://www.youtube.com/watch?v=xlvhyfcoQa4&ab_channel=KevinNaughtonJr.)||DP 
-
+|746|[Minimum Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Solution](../master/src/main/java/_746.java)|LC Premium||DP 
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Solution](../master/src/main/java/_70.java)|LC Premium ||DP 
+|322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](../master/src/main/java/_322.java)|LC Premium & [Ref](https://leetcode.com/problems/coin-change/discuss/77368/*Java*-Both-iterative-and-recursive-solutions-with-explanations)||DP 
 
 ## Mathematical
 
@@ -182,3 +209,9 @@
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](../master/src/main/java/_13.java)|| O(n) | 
 |906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|[Solution](../master/src/main/java/_906.java)|| O(n) | 
 |204|[Prime Numbers](https://leetcode.com/problems/count-primes/)|[Solution](../master/src/main/java/_204.java)|[URL](https://leetcode.com/problems/count-primes/discuss/57588/My-simple-Java-solution)| Time- O(log(log(n)) Space - O(n) | Sieve of Eratosthenes
+
+## Bit Manipulation
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|371|[Sum of Two Numbers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](../master/src/main/java/_371.java)|| [Ref Solution](https://leetcode.com/problems/sum-of-two-integers/discuss/132479/Simple-explanation-on-how-to-arrive-at-the-solution) | 
