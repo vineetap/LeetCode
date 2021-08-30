@@ -1,5 +1,7 @@
 package main.java;
 
+//Approach2 Find minimum/first element in given array then do binar search on both parts
+
 public class _33 {
     class Solution {
         public int search(int[] nums, int target) {
@@ -30,8 +32,6 @@ public class _33 {
                     }
                 }
             }
-
-            //System.out.println("ans -> "+mid);
 
             return nums[mid] == target ? mid : -1;
         }

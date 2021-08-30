@@ -38,7 +38,6 @@
 |11|[Container with most water](https://leetcode.com/problems/container-with-most-water/)|[Solution](../master/src/main/java/_11.java)| | | Two pointer
 |42|[Trapping water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](../master/src/main/java/_42.java)| [Two Pointer-First comment](https://leetcode.com/problems/trapping-rain-water/discuss/17391/Share-my-short-solution)| | Stack/Two pointer
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](../master/src/main/java/_238.java)| | | Left Product and Right Product
-|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](../master/src/main/java/_34.java)| | | Binary Search
 |169|[Majority Elements](https://leetcode.com/problems/majority-element/)|[Solution](../master/src/main/java/_169.java)|[URL](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html) | O(n) | Boyers and Moore Voting
 |229|[Majority Elements II](https://leetcode.com/problems/majority-element-ii/)|[Solution](../master/src/main/java/_229.java)|[URL](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration) | O(n) | Boyers and Moore Voting
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](../master/src/main/java/_849.java)|[URL](https://www.youtube.com/watch?v=Zoi9JyGpCX8) | O(n) | Two pointer
@@ -56,12 +55,31 @@
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](../master/src/main/java/_703.java)| | | 
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Solution](../master/src/main/java/_451.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
 |1636|[Sort Array By Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Solution](../master/src/main/java/_1636.java)| | | HashMap and Sort O(nLog(n)) OR Bucket Sort - O(n)
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow
-|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
-|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_153.java)|[Video](https://www.youtube.com/watch?v=OXkLNPalfRs&ab_channel=KnowledgeCenter) [Ref](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/discuss/48484/A-concise-solution-with-proof-in-the-comment)| Avg-O(logn) Worst Case - O(n)|
-|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_154.java)|[Video](https://www.youtube.com/watch?v=K0PjrikGKK4&ab_channel=KnowledgeCenterKnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
 |1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[Solution](../master/src/main/java/_1909.java)|[Ref](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/discuss/1299306/Two-Conditions)| |
+|1304|[Find n Unique Integers sum up to zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[Solution](../master/src/main/java/_1304.java)|| |
 
+## Binary Search
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Solution](../master/src/main/java/_74.java)|| |O(log(mn))
+|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Solution](../master/src/main/java/_240.java)|[Ref](https://www.youtube.com/watch?v=VS0BcOiKaGI)| |O(log(mn))
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](../master/src/main/java/_34.java)|[Ref](https://www.youtube.com/watch?v=zr_AoTxzn0Y&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=5) | | Binary Search
+|GFG1|[Count number of occurrences (or frequency) in a sorted array](https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/)|[Solution](../master/src/main/java/_34.java)|[Ref](https://www.youtube.com/watch?v=Ru_HhBFV3Xo&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=6) [REF2](https://leetcode.com/discuss/interview-question/124724/)| | Binary Search - Find First and Last occurrence using above question
+|GFG2|[Find Rotation Count in Rotated Sorted Array](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)|[Solution](../master/src/main/java/_153.java)|[Video](https://www.youtube.com/watch?v=4WmTRFZilj8&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=7)| Avg-O(logn) Worst Case - O(n)| Find index of Minimum/First element in array which can give number of rotaion
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_153.java)|[Video](https://www.youtube.com/watch?v=4WmTRFZilj8&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=7) [Ref](https://github.com/skjha1/Aditya-verma-youtube-playlist-code/blob/main/Binary%20Search/06%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)| Avg-O(logn) Worst Case - O(n)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_154.java)|[Video](https://www.youtube.com/watch?v=K0PjrikGKK4&ab_channel=KnowledgeCenterKnowledgeCenter)| Avg-O(logn) Worst Case - O(n)| LC Premium - Sol for this que also works for above one- without duplicate
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](../master/src/main/java/_33.java)| | O(logn) | LC premium description. Also ALWAYS mid=start+(end-start)/2 otherwise overflow == Find minimum/first element in given array then do binar search on bith parts
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Solution](../master/src/main/java/_81.java)|[Video](https://www.youtube.com/watch?v=WkihvY2rJjc&ab_channel=KnowledgeCenter)| Avg-O(logn) Worst Case - O(n)|
+|GFG3|[Search in almost sorted array](https://www.geeksforgeeks.org/search-almost-sorted-array/)|[Solution](https://www.geeksforgeeks.org/search-almost-sorted-array/)|[Ref](https://www.youtube.com/watch?v=W3-KgsCVH1U&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=9)| | Binary Search 
+
+## Binary Search the answer -Use binary search to guess the answer - we will get several “YES” or “NO” feedback or maybe “too high”, “too low”, or “exactly” responses
+
+|  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
+|-----|----------------|---------------|-----------|-------------|----------------
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](../master/src/main/java/_162.java)|[Video](https://www.youtube.com/watch?v=OINnBJTRrMU&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=17)| |O(log(n))
+|278|[First bad version](https://leetcode.com/problems/first-bad-version/submissions/)|[Solution](../master/src/main/java/_278.java)|isBadVersion is similar to isValid in que 1011 | |O(log(n))
+|1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Solution](../master/src/main/java/_1011.java)|[Video](https://www.youtube.com/watch?v=2JSQIhPcHQg&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=21) [Ref](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/256737/C%2B%2B-Binary-Search)|Why apply BS here - ncreasing the capacity always decreases days, so our function d = f(capacity) is monotonic. For a monotonic function, you can use the binary search to speed up the process instead of increment one-by-one. |O(nlog(n))
 
 ## Arrays - Prefix Sum
 
@@ -103,6 +121,9 @@
 |NonLC5|[Write itoa ](https://www.careercup.com/question?id=5670642256969728)|[Solution](../master/src/main/java/_NonLC5.java)| | | 
 |NonLC6|[Smart Substring](https://www.careercup.com/question?id=5156072660664320)|[Solution](../master/src/main/java/_NonLC6.java)| | | 
 |NonLC7|[Remove Repetitive](https://www.careercup.com/question?id=5654760935915520)|[Solution](../master/src/main/java/_NonLC7.java)| | | 
+|151|[Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string)|[Solution](../master/src/main/java/_151.java)| [REF](https://leetcode.com/problems/reverse-words-in-a-string/discuss/47720/Clean-Java-two-pointers-solution-(no-trim(-)-no-split(-)-no-StringBuilder))| | 
+|1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Solution](../master/src/main/java/_1239416.java)|| |
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](../master/src/main/java/_8.java)|[REF](https://leetcode.com/problems/string-to-integer-atoi/discuss/4710/My-Nice-Java-Code-3ms)| |
 
 ## Recursion & Backtracking
 
