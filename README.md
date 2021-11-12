@@ -174,7 +174,7 @@
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Solution](../master/src/main/java/_210.java)|[DFS + Stack](https://leetcode.com/problems/course-schedule-ii/discuss/59317/Two-AC-solution-in-Java-using-BFS-and-DFS-with-explanation)| O(V+E) | 
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Solution](../master/src/main/java/_463.java)|[DFS](https://leetcode.com/problems/island-perimeter/discuss/95004/Java-solution-with-DFS) | O(N) | Counting - LC premium
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Solution](../master/src/main/java/_733.java)|  | O(N) | Call dfs only if newColour and sourceColur are different otherwise stackoverflow
-|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](../master/src/main/java/_1034.java)| [Reference](https://leetcode.com/problems/coloring-a-border/discuss/284935/Java-DFS-Easy-to-understand!) | O(N) | DFS
+|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](../master/src/main/java/_1034.java)| [Reference](https://leetcode.com/problems/coloring-a-border/discuss/284935/Java-DFS-Easy-to-understand!) [Ref2](https://leetcode.com/problems/coloring-a-border/discuss/282847/C%2B%2B-with-picture-DFS)| O(N) | DFS
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](../master/src/main/java/_200.java)| [Reference](https://leetcode.com/problems/coloring-a-border/discuss/284935/Java-DFS-Easy-to-understand!) | O(N) | DFS
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Solution](../master/src/main/java/_1091.java)|Shortest Path -BFS| | 
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|[Solution](../master/src/main/java/_542.java)| [BFS](https://leetcode.com/problems/01-matrix/discuss/248525/Java-BFS-solution-with-comments)| | 
@@ -194,6 +194,10 @@
 
 |  #  |      Title     |   Solutions   | Resource  | Complexity | Point to Remember                   
 |-----|----------------|---------------|-----------|-------------|----------------
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](../master/src/main/java/_98.java)|[Ref](https://leetcode.com/problems/validate-binary-search-tree/discuss/32109/My-simple-Java-solution-in-3-lines)| Recursive  | 
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Solution](../master/src/main/java/_94.java)|| Recursive  | 
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](../master/src/main/java/_98.java)|| Recursive  | 
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Solution](../master/src/main/java/_94.java)|| Recursive  | 
 |226|[Invert a Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](../master/src/main/java/_226.java)|| DFS & BFS solution  | 
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Solution](../master/src/main/java/_572.java)|| [Ref Solution](https://leetcode.com/problems/subtree-of-another-tree/discuss/102724/Java-Solution-tree-traversal)  | 
 
